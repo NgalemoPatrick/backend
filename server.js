@@ -3,7 +3,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const router = require('./ROUTES/workouts')
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 1337
 
 const url = process.env.DATABASE_URI
 // create an instance of express app
